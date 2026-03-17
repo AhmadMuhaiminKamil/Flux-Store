@@ -37,13 +37,13 @@ export default function HomePage() {
             <a href="#featured" className="hover:text-blue-400 transition">
               Featured Service
             </a>
-            <a href="/testimonials" className="hover:text-blue-400 transition">
+            {/* <a href="/testimonials" className="hover:text-blue-400 transition">
               Testimonials
-            </a>
+            </a> */}
           </div>
 
           <button 
-      onClick={() => window.open('https://wa.me/6281268014411', '_blank')}
+      onClick={() => window.open('https://wa.me/6283878885958', '_blank')}
       className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-full text-sm font-bold transition shadow-[0_0_15px_rgba(37,99,235,0.4)] active:scale-95"
     >
       Contact
@@ -309,7 +309,7 @@ export default function HomePage() {
 
              {/* Action Button: Kembali ke WhatsApp */}
         <button 
-          onClick={() => window.open('https://wa.me/6281268014411', '_blank')}
+          onClick={() => window.open('https://wa.me/6283878885958', '_blank')}
           className="w-full bg-white text-black py-4 rounded-2xl font-black transition transform active:scale-95 flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white group shadow-xl"
         >
           ORDER VIA WHATSAPP 
